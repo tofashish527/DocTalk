@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Ayesha Khan",
+      "image": "https://i.ibb.co.com/q38R1RzT/44.jpg",
+      "education": "MBBS, MD (Internal Medicine)",
+      "speciality": "Cardiology",
+      "experience": 12,
+      "registrationNumber": "bd-mc-11056434",
+      "availableDays": ["Monday", "Wednesday", "Saturday"],
+    "workplace": "HeartCare Medical Center",
+    "consultationFee": 1500
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ahmed Ali",
+      "image": "https://i.ibb.co.com/ynCHRnQS/32.jpg",
+      "education": "MBBS, MS (Orthopedics)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": 8,
+      "registrationNumber": "bd-mc-11056435",
+      "availableDays": ["Tuesday", "Thursday", "Saturday"],
+      "workplace": "Bone & Joint Hospital",
+      "consultationFee": 1200
+    },
+    {
+      "id": 3,
+      "name": "Dr. Sana Tariq",
+      "image": "https://i.ibb.co.com/ycGHnpYJ/68.jpg",
+      "education": "MBBS, FCPS (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": 6,
+      "registrationNumber": "bd-mc-11056436",
+      "availableDays": ["Monday", "Thursday", "Friday"],
+      "workplace": "SkinCare Clinic",
+      "consultationFee": 1000
+    },
+    {
+      "id": 4,
+      "name": "Dr. Bilal Shah",
+      "image": "https://i.ibb.co.com/PZHTxZqB/55.jpg",
+      "education": "MBBS, DMRD (Radiology)",
+      "speciality": "Radiologist",
+      "experience": 10,
+      "registrationNumber": "bd-mc-11056437",
+      "availableDays": ["Tuesday", "Wednesday", "Friday"],
+      "workplace": "City Diagnostic Center",
+      "consultationFee": 1300
+    },
+    {
+      "id": 5,
+      "name": "Dr. Maria Zafar",
+      "image": "https://i.ibb.co.com/6RxcD7w7/35.jpg",
+      "education": "MBBS, MS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": 9,
+      "registrationNumber": "bd-mc-11056438",
+      "availableDays": ["Monday", "Tuesday", "Saturday"],
+      "workplace": "Voice & Hearing Clinic",
+      "consultationFee": 1100
+    },
+    {
+      "id": 6,
+      "name": "Dr. Usman Raza",
+      "image": "https://i.ibb.co.com/CpdJ29Gs/75.jpg",
+      "education": "MBBS, FCPS (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": 7,
+      "registrationNumber": "bd-mc-11056439",
+      "availableDays": ["Wednesday", "Friday", "Sunday"],
+      "workplace": "Mind Wellness Center",
+      "consultationFee": 1600
+    },
+    {
+      "id": 7,
+      "name": "Dr. Hina Aslam",
+      "image": "https://i.ibb.co.com/V0MR2xm1/20.jpg",
+      "education": "MBBS, DGO",
+      "speciality": "Gynecologist",
+      "experience": 11,
+      "registrationNumber": "bd-mc-11056440",
+      "availableDays": ["Tuesday", "Thursday", "Sunday"],
+    "workplace": "WomenCare Hospital",
+    "consultationFee": 1500
+    },
+    {
+      "id": 8,
+      "name": "Dr. Zain Ahmed",
+      "image": "https://i.ibb.co.com/Q7pVQRk9/29.jpg",
+      "education": "MBBS, FCPS (Urology)",
+      "speciality": "Urologist",
+      "experience": 5,
+      "registrationNumber": "bd-mc-11056441",
+      "availableDays": ["Monday", "Friday", "Saturday"],
+    "workplace": "Kidney Health Institute",
+    "consultationFee": 1400
+    },
+    {
+      "id": 9,
+      "name": "Dr. Mehreen Akhtar",
+      "image": "https://i.ibb.co.com/yFTQSjcp/81.jpg",
+      "education": "MBBS, MD (Pediatrics)",
+      "speciality": "Pediatrician",
+      "experience": 6,
+      "registrationNumber": "bd-mc-11056442",
+      "availableDays": ["Wednesday", "Thursday", "Saturday"],
+    "workplace": "Kids Health Hospital",
+    "consultationFee": 1100
+    },
+    {
+      "id": 10,
+      "name": "Dr. Imran Sheikh",
+      "image": "https://i.ibb.co.com/MxCMNPDR/64.jpg",
+      "education": "MBBS, FCPS (Neurology)",
+      "speciality": "Neurologist",
+      "experience": 13,
+      "registrationNumber": "bd-mc-11056443",
+      "availableDays": ["Monday", "Wednesday", "Sunday"],
+      "workplace": "NeuroPlus Clinic",
+      "consultationFee": 1800
+    },
+    {
+      "id": 11,
+      "name": "Dr. Farah Javed",
+      "image": "https://i.ibb.co.com/WW9CJQ2C/59.jpg",
+      "education": "MBBS, FCPS (Oncology)",
+      "speciality": "Oncologist",
+      "experience": 9,
+      "registrationNumber": "bd-mc-11056444",
+      "availableDays": ["Tuesday", "Friday", "Sunday"],
+      "workplace": "CancerCare Center",
+      "consultationFee": 2000
+    },
+    {
+      "id": 12,
+      "name": "Dr. Kamran Arif",
+      "image": "https://i.ibb.co.com/Y4bTb0qG/91.jpg",
+      "education": "MBBS, MS (General Surgery)",
+      "speciality": "General Surgeon",
+      "experience": 14,
+      "registrationNumber": "bd-mc-11056445",
+      "availableDays": ["Thursday", "Saturday", "Sunday"],
+    "workplace": "City Surgical Hospital",
+    "consultationFee": 1700
+    }
+  ]
+  
