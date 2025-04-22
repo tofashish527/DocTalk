@@ -1,5 +1,8 @@
 import React from 'react';
 import successdoctor from '../../assets/success-doctor.png';
+import successreview from '../../assets/success-review.png';
+import successpatients from '../../assets/success-patients.png';
+import successstaff from '../../assets/success-staffs.png';
 import CountUp from 'react-countup';
 
 const CounterUp = () => {
@@ -11,33 +14,37 @@ const CounterUp = () => {
       </p>
 
       <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2'>
-        <div className='border p-4 rounded-md text-center w-64 shadow-md'>
-          <img src={successdoctor} alt="Doctor Icon" className="mx-auto w-16 h-16 mb-3" />
+        <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
+          <img src={successdoctor} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
+          <div className='text-3xl font-bold text-blue-600'>
+            <CountUp start={0} end={197} duration={5} enableScrollSpy />
+            <span className="ml-1">+</span>
+          </div>
           <p className='font-medium text-lg mb-1'>Total Doctors</p>
-          <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={197} duration={5} enableScrollSpy />
-          </div>
         </div>
-        <div className='border p-4 rounded-md text-center w-64 shadow-md'>
-          <img src={successdoctor} alt="Doctor Icon" className="mx-auto w-16 h-16 mb-3" />
+        <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
+          <img src={successreview} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
+          <div className='text-3xl font-bold text-blue-600'>
+            <CountUp start={0} end={467} duration={5} enableScrollSpy />
+            <span className="ml-1">+</span>
+          </div>
           <p className='font-medium text-lg mb-1'>Total Reviews</p>
-          <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={197} duration={5} enableScrollSpy />
-          </div>
         </div>
-        <div className='border p-4 rounded-md text-center w-64 shadow-md'>
-          <img src={successdoctor} alt="Doctor Icon" className="mx-auto w-16 h-16 mb-3" />
+        <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
+          <img src={successpatients} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
+          <div className='text-3xl font-bold text-blue-600'>
+            <CountUp start={0} end={1900} duration={5} enableScrollSpy />
+            <span className="ml-1">+</span>
+          </div>
           <p className='font-medium text-lg mb-1'>Patients</p>
-          <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={197} duration={5} enableScrollSpy />
-          </div>
         </div>
-        <div className='border p-4 rounded-md text-center w-64 shadow-md'>
-          <img src={successdoctor} alt="Doctor Icon" className="mx-auto w-16 h-16 mb-3" />
-          <p className='font-medium text-lg mb-1'>Total Staffs</p>
+        <div className='bg-white p-6 rounded-md w-64 shadow-md'>
+          <img src={successstaff} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={197} duration={5} enableScrollSpy />
+            <CountUp start={0} end={300} duration={5} enableScrollSpy />
+            <span className="ml-1">+</span>
           </div>
+          <p className='font-medium text-lg mb-1'>Total Staffs</p>
         </div>
       </div>
     </div>
