@@ -1,10 +1,60 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
+import { NavLink } from 'react-router';
 const Navbar = () => {
-    const links=<>
-        <li className='m-2'>Home</li>
-        <li className='m-2'>My-Bookings</li>
-        </>
+    const links = (
+      <>
+        <li className="m-2">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? 'text-blue-800 font-semibold underline'
+                : 'hover:underline'
+            }
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="m-2">
+          <NavLink
+            to="/my-bookings"
+            className={({ isActive }) =>
+              isActive
+                ? 'text-blue-800 font-semibold underline'
+                : 'hover:underline'
+            }
+          >
+            My-Bookings
+          </NavLink>
+        </li>
+        <li className="m-2">
+          <NavLink
+            to="/blogs"
+            className={({ isActive }) =>
+              isActive
+                ? 'text-blue-800 font-semibold underline'
+                : 'hover:underline'
+            }
+          >
+            Blogs
+          </NavLink>
+        </li>
+        <li className="m-2">
+          <NavLink
+            to="/contacts"
+            className={({ isActive }) =>
+              isActive
+                ? 'text-blue-800 font-semibold underline'
+                : 'hover:underline'
+            }
+          >
+            Contacts
+          </NavLink>
+        </li>
+      </>
+    );
+    
     return (
 <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">

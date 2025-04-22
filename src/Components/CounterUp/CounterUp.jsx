@@ -9,11 +9,11 @@ const CounterUp = () => {
   return (
     <div className='mt-10'>
       <h1 className='text-4xl font-bold text-center'>We Provide Best Medical Services</h1>
-      <p className='text-sm text-center mb-6'>
+      <p className='text-sm text-center mb-6 mt-4'>
         Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.
       </p>
 
-      <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2'>
+      <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 ml-14'>
         <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
           <img src={successdoctor} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>

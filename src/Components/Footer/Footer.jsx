@@ -1,20 +1,70 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
+import { NavLink } from 'react-router';
 const Footer = () => {
+  const links = (
+    <>
+      <li className="m-2">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-blue-800 font-semibold underline'
+              : 'hover:underline'
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+      <li className="m-2">
+        <NavLink
+          to="/my-bookings"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-blue-800 font-semibold underline'
+              : 'hover:underline'
+          }
+        >
+          My-Bookings
+        </NavLink>
+      </li>
+      <li className="m-2">
+        <NavLink
+          to="/blogs"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-blue-800 font-semibold underline'
+              : 'hover:underline'
+          }
+        >
+          Blogs
+        </NavLink>
+      </li>
+      <li className="m-2">
+        <NavLink
+          to="/contacts"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-blue-800 font-semibold underline'
+              : 'hover:underline'
+          }
+        >
+          Contacts
+        </NavLink>
+      </li>
+    </>
+  );
     return (
-        <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+        <footer className="footer footer-horizontal footer-center bg-white text-base-content rounded p-10 mt-14">
    <div className='flex gap-1 items-center'>
       <img src={logo} alt="" className='h-9 w-9 mt-1' />
       {/* <a className="btn btn-ghost text-xl">Phudo</a> */}
       <p className='text-2xl font-bold'>Phudo</p>
       </div>
   
-  <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">Home</a>
-    <a className="link link-hover">My-Bookings</a>
-    <a className="link link-hover">Blogs</a>
-    <a className="link link-hover">Contact Us</a>
-  </nav>
+  <div className="grid grid-flow-col gap-4 list-none">
+  {links}
+  </div>
   <nav>
     <div className="grid grid-flow-col gap-4">
       <a>
