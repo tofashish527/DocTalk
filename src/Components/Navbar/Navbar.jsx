@@ -9,7 +9,7 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-800 font-semibold underline'
+                ? 'text-blue-800 font-semibold border border-b-2'
                 : 'hover:underline'
             }
           >
@@ -21,7 +21,7 @@ const Navbar = () => {
             to="/doclist"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-800 font-semibold underline'
+                ? 'text-blue-800 font-semibold border border-b-2'
                 : 'hover:underline'
             }
           >
@@ -33,7 +33,7 @@ const Navbar = () => {
             to="/blogs"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-800 font-semibold underline'
+                ? 'text-blue-800 font-semibold border border-b-2'
                 : 'hover:underline'
             }
           >
@@ -45,7 +45,7 @@ const Navbar = () => {
             to="/contacts"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-800 font-semibold underline'
+                ? 'text-blue-800 font-semibold border border-b-2'
                 : 'hover:underline'
             }
           >

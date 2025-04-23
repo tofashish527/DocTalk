@@ -18,7 +18,7 @@ const Footer = () => {
       </li>
       <li className="m-2">
         <NavLink
-          to="/my-bookings"
+          to="/doclist"
           className={({ isActive }) =>
             isActive
               ? 'text-blue-800 font-semibold underline'

@@ -5,6 +5,7 @@ import successpatients from '../../assets/success-patients.png';
 import successstaff from '../../assets/success-staffs.png';
 import CountUp from 'react-countup';
 
+
 const CounterUp = () => {
   return (
     <div className='mt-10'>
@@ -17,7 +18,7 @@ const CounterUp = () => {
         <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
           <img src={successdoctor} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={197} duration={5} enableScrollSpy />
+            <CountUp start={0} end={197} duration={5} enableScrollSpy scrollSpyDelay={100} />
             <span className="ml-1">+</span>
           </div>
           <p className='font-medium text-lg mb-1'>Total Doctors</p>
@@ -25,7 +26,7 @@ const CounterUp = () => {
         <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
           <img src={successreview} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={467} duration={5} enableScrollSpy />
+            <CountUp start={0} end={467} duration={5} enableScrollSpy scrollSpyDelay={100} />
             <span className="ml-1">+</span>
           </div>
           <p className='font-medium text-lg mb-1'>Total Reviews</p>
@@ -33,7 +34,7 @@ const CounterUp = () => {
         <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
           <img src={successpatients} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={1900} duration={5} enableScrollSpy />
+            <CountUp start={0} end={1900} duration={5} enableScrollSpy scrollSpyDelay={100} />
             <span className="ml-1">+</span>
           </div>
           <p className='font-medium text-lg mb-1'>Patients</p>
@@ -41,7 +42,7 @@ const CounterUp = () => {
         <div className='bg-white p-6 rounded-md w-64 shadow-md'>
           <img src={successstaff} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
-            <CountUp start={0} end={300} duration={5} enableScrollSpy />
+            <CountUp start={0} end={300} duration={5} enableScrollSpy scrollSpyDelay={100} />
             <span className="ml-1">+</span>
           </div>
           <p className='font-medium text-lg mb-1'>Total Staffs</p>

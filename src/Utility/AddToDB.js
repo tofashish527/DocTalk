@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoredDoc=()=>{
     const storedDocSTR=localStorage.getItem("doclist");
     if(storedDocSTR)
@@ -14,7 +16,8 @@ const addToStoredDB=(id)=>{
      const storedDocData=getStoredDoc();
      if(storedDocData.includes(id))
      {
-        alert("already ");
+        toast.warning("already");
+        
      }
      else
      {
@@ -24,4 +27,19 @@ const addToStoredDB=(id)=>{
          console.log(storedDocData)
      }
 }
-export {addToStoredDB,getStoredDoc}
+
+
+  const removeFromStoredDB = (id) => {
+    const storedDocData = getStoredDoc(); // ["1", "2", "3"]
+   //const updatedData = storedDocData.filter(storedId => storedId !== String(id));
+    //localStorage.setItem("doclist", JSON.stringify(updatedData));
+
+    const updatedStoredDoc = storedDocData.filter(storedId => parseInt(storedId) !== id);
+    localStorage.setItem("doclist", JSON.stringify(updatedStoredDoc));
+  
+  
+    //console.log("Before removal:", storedDocData);
+    //console.log("After removal:", updatedData);
+  };
+  export { addToStoredDB, getStoredDoc, removeFromStoredDB };
+  
