@@ -6,6 +6,7 @@ import Home from '../Pages/Home/Home';
 import Docdetail from '../Pages/Docdetail/Docdetail';
 import Contact from '../Pages/Contact/Contact';
 import Blogs from '../Pages/Blogs/Blogs';
+import Doclist from '../Pages/Doclist/Doclist';
 
 export const router = createBrowserRouter([
     {
@@ -29,6 +30,11 @@ export const router = createBrowserRouter([
             path:'/blogs',
             Component:Blogs,
             loader:()=>fetch('../Blogsdata.json')
+        },
+        {
+            path:'/doclist',
+            Component:Doclist,
+            loader:()=>fetch('../Doctordata.json')
         },
         {
             path:'/Contacts',

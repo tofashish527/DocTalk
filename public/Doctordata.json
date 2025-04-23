@@ -9,7 +9,7 @@
       "registrationNumber": "bd-mc-11056434",
       "availableDays": ["Monday", "Wednesday", "Saturday"],
     "workplace": "HeartCare Medical Center",
-    "consultationFee": 1500
+    "consultationFee": 1100
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "registrationNumber": "bd-mc-11056435",
       "availableDays": ["Tuesday", "Thursday", "Saturday"],
       "workplace": "Bone & Joint Hospital",
-      "consultationFee": 1200
+      "consultationFee": 1500
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "registrationNumber": "bd-mc-11056436",
       "availableDays": ["Monday", "Thursday", "Friday"],
       "workplace": "SkinCare Clinic",
-      "consultationFee": 1000
+      "consultationFee": 2000
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "registrationNumber": "bd-mc-11056437",
       "availableDays": ["Tuesday", "Wednesday", "Friday"],
       "workplace": "City Diagnostic Center",
-      "consultationFee": 1300
+      "consultationFee": 500
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
       "registrationNumber": "bd-mc-11056438",
       "availableDays": ["Monday", "Tuesday", "Saturday"],
       "workplace": "Voice & Hearing Clinic",
-      "consultationFee": 1100
+      "consultationFee": 2500
     },
     {
       "id": 6,
@@ -81,7 +81,7 @@
       "registrationNumber": "bd-mc-11056440",
       "availableDays": ["Tuesday", "Thursday", "Sunday"],
     "workplace": "WomenCare Hospital",
-    "consultationFee": 1500
+    "consultationFee": 1700
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
       "registrationNumber": "bd-mc-11056441",
       "availableDays": ["Monday", "Friday", "Saturday"],
     "workplace": "Kidney Health Institute",
-    "consultationFee": 1400
+    "consultationFee": 3000
     },
     {
       "id": 9,
@@ -105,7 +105,7 @@
       "registrationNumber": "bd-mc-11056442",
       "availableDays": ["Wednesday", "Thursday", "Saturday"],
     "workplace": "Kids Health Hospital",
-    "consultationFee": 1100
+    "consultationFee": 3500
     },
     {
       "id": 10,
@@ -117,7 +117,7 @@
       "registrationNumber": "bd-mc-11056443",
       "availableDays": ["Monday", "Wednesday", "Sunday"],
       "workplace": "NeuroPlus Clinic",
-      "consultationFee": 1800
+      "consultationFee": 4000
     },
     {
       "id": 11,
@@ -129,7 +129,7 @@
       "registrationNumber": "bd-mc-11056444",
       "availableDays": ["Tuesday", "Friday", "Sunday"],
       "workplace": "CancerCare Center",
-      "consultationFee": 2000
+      "consultationFee": 4500
     },
     {
       "id": 12,
@@ -141,7 +141,7 @@
       "registrationNumber": "bd-mc-11056445",
       "availableDays": ["Thursday", "Saturday", "Sunday"],
     "workplace": "City Surgical Hospital",
-    "consultationFee": 1700
+    "consultationFee": 5000
     }
   ]
   

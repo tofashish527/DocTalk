@@ -1,12 +1,19 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
+import { addToStoredDB } from '../../Utility/AddToDB';
+
 
 const Docdetail = () => {
+    const navigate = useNavigate();
     const data=useLoaderData()
     const {id}=useParams()
     const singledoc=data.find(sdoc=>sdoc.id===parseInt(id))
     const {name,image,education,speciality,registrationNumber,workplace,availableDays,consultationFee}=singledoc
-    console.log(singledoc)
+    //console.log(singledoc)
+    const handleAppointment=(id)=>{
+        addToStoredDB(id)
+    }
+
     return (
         <div className='p-1'>
             <div className='text-center mt-3 mb-3 bg-white p-5 rounded-xl'>
@@ -57,7 +64,7 @@ const Docdetail = () => {
 </svg>
   <span className='text-amber-700'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</span>
 </div>
-                <button className='w-full rounded-4xl text-white bg-blue-600 p-2 mt-5 mb-7'>Book Appointment Now</button>
+                <button className='w-full rounded-4xl text-white bg-blue-600 p-2 mt-5 mb-7' onClick={()=>{handleAppointment(id);navigate('/doclist');}}>Book Appointment Now</button>
             </div>
         </div>
     );

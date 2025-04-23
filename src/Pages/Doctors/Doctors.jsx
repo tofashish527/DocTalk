@@ -23,9 +23,9 @@ const Doctors = ({doc}) => {
             <p className='text-sm text-center mb-7'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a<br></br> routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12 mt-5'>
-        {
+            {
             displaydoc.map(singledoc=> <Doctor singledoc={singledoc} key={doc.id}></Doctor>)
-        }
+             }
         </div>
         <div className="flex justify-center my-4">
             <button  className="btn rounded-4xl text-white bg-blue-600" onClick={()=>{

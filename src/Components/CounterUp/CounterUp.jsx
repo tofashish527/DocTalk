@@ -13,7 +13,7 @@ const CounterUp = () => {
         Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.
       </p>
 
-      <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 ml-14'>
+      <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 ml-14'>
         <div className='bg-white p-6 rounded-md  w-64 shadow-md'>
           <img src={successdoctor} alt="Doctor Icon" className=" w-12 h-12 mb-3" />
           <div className='text-3xl font-bold text-blue-600'>
