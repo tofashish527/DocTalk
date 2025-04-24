@@ -11,7 +11,8 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-        <title>MediConnect - Home</title>
+            <link rel="icon" href="/logo/logo.png" />
+            <title>DocTalk</title>
       </Helmet>
             <Banner></Banner>
             <Doctors doc={data}></Doctors>
