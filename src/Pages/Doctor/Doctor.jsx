@@ -22,7 +22,7 @@ const Doctor = ({singledoc}) => {
     </h2>
     <p className='text-sm font-medium'>{education}-{speciality}</p>
     <div className='border-b-1 border-dashed'></div>
-    <p>Reg No : {registrationNumber}</p>
+    <p className='flex gap-1 mt-2'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-plus-icon lucide-circle-plus w-5 h-5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>Reg No : {registrationNumber}</p>
      </div>
      <Link to={`/docdetail/${id}`}>
      <button className='btn justify-center items-center flex w-10/12 m-4 mx-auto rounded-4xl text-blue-600 border border-blue-600'>View Details</button> </Link>

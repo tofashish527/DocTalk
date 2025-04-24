@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Dr. Ayesha Khan",
-      "image": "https://i.ibb.co.com/q38R1RzT/44.jpg",
+      "image": "https://i.ibb.co.com/fzjKnqZQ/pexels-photo-5206931.webp",
       "education": "MBBS, MD (Internal Medicine)",
       "speciality": "Cardiology",
       "experience": 12,
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "Dr. Ahmed Ali",
-      "image": "https://i.ibb.co.com/ynCHRnQS/32.jpg",
+      "image": "https://i.ibb.co.com/R4HHKpFK/pexels-photo-26886763.webp",
       "education": "MBBS, MS (Orthopedics)",
       "speciality": "Orthopedic Surgeon",
       "experience": 8,
@@ -26,7 +26,7 @@
     {
       "id": 3,
       "name": "Dr. Sana Tariq",
-      "image": "https://i.ibb.co.com/ycGHnpYJ/68.jpg",
+      "image": "https://i.ibb.co.com/23F0xNgF/pexels-photo-5452201.webp",
       "education": "MBBS, FCPS (Dermatology)",
       "speciality": "Dermatologist",
       "experience": 6,
@@ -38,7 +38,7 @@
     {
       "id": 4,
       "name": "Dr. Bilal Shah",
-      "image": "https://i.ibb.co.com/PZHTxZqB/55.jpg",
+      "image": "https://i.ibb.co.com/q38Yp67s/istockphoto-653909030-612x612.jpg",
       "education": "MBBS, DMRD (Radiology)",
       "speciality": "Radiologist",
       "experience": 10,
@@ -50,7 +50,7 @@
     {
       "id": 5,
       "name": "Dr. Maria Zafar",
-      "image": "https://i.ibb.co.com/6RxcD7w7/35.jpg",
+      "image": "https://i.ibb.co.com/0RM5DVr7/pexels-photo-5998474.webp",
       "education": "MBBS, MS (ENT)",
       "speciality": "ENT Specialist",
       "experience": 9,
@@ -62,7 +62,7 @@
     {
       "id": 6,
       "name": "Dr. Usman Raza",
-      "image": "https://i.ibb.co.com/CpdJ29Gs/75.jpg",
+      "image": "https://i.ibb.co.com/4nvJmZ8D/istockphoto-480255561-612x612.jpg",
       "education": "MBBS, FCPS (Psychiatry)",
       "speciality": "Psychiatrist",
       "experience": 7,
@@ -74,7 +74,7 @@
     {
       "id": 7,
       "name": "Dr. Hina Aslam",
-      "image": "https://i.ibb.co.com/V0MR2xm1/20.jpg",
+      "image": "https://i.ibb.co.com/XrCmtCF6/pexels-photo-5327580.webp",
       "education": "MBBS, DGO",
       "speciality": "Gynecologist",
       "experience": 11,
@@ -86,7 +86,7 @@
     {
       "id": 8,
       "name": "Dr. Zain Ahmed",
-      "image": "https://i.ibb.co.com/Q7pVQRk9/29.jpg",
+      "image": "https://i.ibb.co.com/WvdLhwJL/istockphoto-1161125352-612x612.jpg",
       "education": "MBBS, FCPS (Urology)",
       "speciality": "Urologist",
       "experience": 5,
@@ -98,7 +98,7 @@
     {
       "id": 9,
       "name": "Dr. Mehreen Akhtar",
-      "image": "https://i.ibb.co.com/yFTQSjcp/81.jpg",
+      "image":"https://i.ibb.co.com/yBBBfn2S/pexels-photo-6749778.webp",
       "education": "MBBS, MD (Pediatrics)",
       "speciality": "Pediatrician",
       "experience": 6,
@@ -110,7 +110,7 @@
     {
       "id": 10,
       "name": "Dr. Imran Sheikh",
-      "image": "https://i.ibb.co.com/MxCMNPDR/64.jpg",
+      "image": "https://i.ibb.co.com/rRtBd0V4/istockphoto-1349704775-612x612.jpg",
       "education": "MBBS, FCPS (Neurology)",
       "speciality": "Neurologist",
       "experience": 13,
@@ -122,7 +122,7 @@
     {
       "id": 11,
       "name": "Dr. Farah Javed",
-      "image": "https://i.ibb.co.com/WW9CJQ2C/59.jpg",
+      "image": "https://i.ibb.co.com/My88xNCY/pexels-photo-5214958.webp",
       "education": "MBBS, FCPS (Oncology)",
       "speciality": "Oncologist",
       "experience": 9,
@@ -134,7 +134,7 @@
     {
       "id": 12,
       "name": "Dr. Kamran Arif",
-      "image": "https://i.ibb.co.com/Y4bTb0qG/91.jpg",
+      "image": "https://i.ibb.co.com/4wr8vLzt/istockphoto-2168038488-612x612.jpg",
       "education": "MBBS, MS (General Surgery)",
       "speciality": "General Surgeon",
       "experience": 14,

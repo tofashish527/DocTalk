@@ -7,17 +7,16 @@ const Error = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="min-h-screen bg-white flex flex-col justify-center items-center p-6">
-      <h1 className="text-6xl font-bold text-blue-600 mb-4">404</h1>
-      <h2 className="text-2xl font-semibold text-gray-800 mb-2">Page Not Found</h2>
-      <p className="text-gray-600 mb-6 text-center max-w-md">
-        Oops! The page you are looking for doesn’t exist or has been moved. Let’s get you back home.
+            <div className=" bg-white flex flex-col justify-center items-center p-3 mt-6">
+                <img src="https://i.ibb.co.com/yFsz41Qm/404-status-code.png" alt="" className='w-5/12 h-3/12' />
+      <p className="text-gray-600 text-xl mb-6 text-center max-w-md font-bold mt-4">
+        Ooops! The page you are looking for doesn’t exist or has been moved. Let’s get you back home.
       </p>
       <button
         onClick={() => navigate('/')}
-        className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition"
+        className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700"
       >
-        Go to Homepage
+        Go to Home
       </button>
     </div>
     </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { useLoaderData, useNavigate, useParams } from 'react-router';
 import { addToStoredDB } from '../../Utility/AddToDB';
+import ErrorDoc from '../ErrorDoc/ErrorDoc';
+
 
 
 const Docdetail = () => {
@@ -8,10 +10,19 @@ const Docdetail = () => {
     const data=useLoaderData()
     const {id}=useParams()
     const singledoc=data.find(sdoc=>sdoc.id===parseInt(id))
+
+    if (!singledoc) {
+        return <ErrorDoc message={`ID-${id} `} />;
+      }
+    
     const {name,image,education,speciality,registrationNumber,workplace,availableDays,consultationFee}=singledoc
     //console.log(singledoc)
-    const handleAppointment=(id)=>{
-        addToStoredDB(id)
+    const handleAppointment=()=>{
+        // addToStoredDB(parseInt(id),name);
+        const success = addToStoredDB(parseInt(id), name);
+        if (success) {
+          navigate('/doclist');
+        }
     }
 
     return (
@@ -21,33 +32,36 @@ const Docdetail = () => {
                 <p className='text-sm mb-5 mt-1'>Health is not just about what you'r eating.It's also about what you'r thinking,saying and doing.A peaceful mind leads<br></br> to a healthy body.</p>
             </div>
             <div className='flex gap-10 mt-3 mb-3 bg-white p-10 rounded-xl'>
-               {/* <div className='p-5 items-center'>
-                  <img src={image} className='max-w-[325px] max-h-[383px] object-contain'></img>
-               </div> */}
-                <div className="p-5 flex justify-center items-center bg-gray-100 w-[200px]">
+                <div className="p-5 flex justify-center items-center bg-gray-100 w-[400px]">
                     <img
                         src={image}
                         alt=""
-                        className="max-w-[325px] max-h-[383px] object-contain"
+                        className="object-contain"
                     />
                 </div>
                <div>
-                 <h1 className='text-3xl font-bold mt-3 mb-2'>{name}</h1>
-                 <p className='text-sm mb-1'>{education}</p>
-                 <p className='text-sm mb-1'>{speciality}</p>
-                 <p className='text-sm mb-1'>Working at <br></br><span className='font-bold text-xl'>{workplace}</span></p>
-                 <div className='border-b-1 border-dashed'></div>
-                 <p className='mt-2 mb-2'>Reg-no : {registrationNumber}</p>
-                 <div className='border-b-1 border-dashed'></div>
-                 <div className='flex mt-2 mb-2'>
-                 <span className='font-bold text-xl'>Availability :</span>
-                 <div className='flex  gap-2 ml-2'>
-                 {
-                        availableDays.map(day=> <button className='bg-amber-100 text-amber-900 rounded-xl p-1'>{day}</button>)
-                    }
-                 </div>
-                 </div>
-                 <p className='font-bold text-sm'>Consultation Fee : <span className='text-blue-400'>Taka : {consultationFee}</span> (incl. VAT) <span className='text-blue-500'>Per consultation</span></p>
+                 <h1 className='text-4xl font-bold mt-4 mb-15'>{name}</h1>
+                 <p className='text-sm mt-4 mb-1'>{education}</p>
+                 <p className='text-sm mt-2 mb-1'>{speciality}</p>
+                 <p className='text-sm mb-1 mt-15'>Working at <br></br><span className='font-bold text-xl mt-10'>{workplace}</span></p>
+                 <div className='mt-16 mb-1 border-b-1 border-dashed'></div>
+                 <p className=' mb-2 flex gap-1'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-plus-icon lucide-circle-plus w-5 h-5 mt-1"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>Reg-no : {registrationNumber}</p>
+                 <div className='border-b-1 border-dashed mb-5'></div>
+                 <div className="flex mt-15 mb-6 flex-wrap items-start">
+  <span className="font-bold text-xl mt-1 mr-2">Availability:</span>
+  <div className="flex flex-wrap gap-2 mt-1">
+    {availableDays.map((day, index) => (
+      <button
+        key={index}
+        className="bg-amber-100 text-amber-900 rounded-md px-3 py-1 text-sm"
+      >
+        {day}
+      </button>
+    ))}
+  </div>
+</div>
+
+                 <p className='font-bold text-sm mt-15'>Consultation Fee : <span className='text-blue-400'>Taka : {consultationFee}</span> (incl. VAT) <span className='text-blue-500'>Per consultation</span></p>
                </div>
             </div>
             <div className='mt-4 mb-3 bg-white p-5 rounded-xl'>
@@ -64,9 +78,10 @@ const Docdetail = () => {
 </svg>
   <span className='text-amber-700'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</span>
 </div>
-                <button className='w-full rounded-4xl text-white bg-blue-600 p-2 mt-5 mb-7' onClick={()=>{handleAppointment(id);navigate('/doclist');}}>Book Appointment Now</button>
+                <button className='w-full rounded-4xl text-white bg-blue-600 p-2 mt-5 mb-7' onClick={()=>{handleAppointment();}}>Book Appointment Now</button>
             </div>
         </div>
+        
     );
 };
 

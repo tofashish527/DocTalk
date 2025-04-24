@@ -1,14 +1,20 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar/Navbar';
 
-const ErrorDoc = () => {
+const ErrorDoc = ({message}) => {
+    const handleNavigation = () => {
+        window.location.replace('/');
+      };
     return (
-        <div>
-            <Navbar></Navbar>
-            <div>
-                <h1>No Doctor Found</h1>
-            </div>
-            <Footer></Footer>
+
+        <div className="text-center mt-20 bg-white p-15">
+            <p className='text-3xl font-bold mb-2'>No Doctor Found !!</p>
+            <p>No Doctor found with this id</p>
+            <h1 className="text-4xl font-bold text-red-600">{message}</h1>
+            <button
+        className="btn rounded-4xl text-white bg-blue-600 mt-5"
+        onClick={() => handleNavigation()}>
+        View All Doctors
+      </button>
         </div>
     );
 };

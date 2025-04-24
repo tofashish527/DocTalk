@@ -24,7 +24,7 @@ const Doctors = ({doc}) => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12 mt-5'>
             {
-            displaydoc.map(singledoc=> <Doctor singledoc={singledoc} key={doc.id}></Doctor>)
+            displaydoc.map((singledoc,index)=> <Doctor key={index} singledoc={singledoc} ></Doctor>)
              }
         </div>
         <div className="flex justify-center my-4">
