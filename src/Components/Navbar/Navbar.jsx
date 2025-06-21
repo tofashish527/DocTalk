@@ -69,7 +69,7 @@ const Navbar = () => {
       </ul>
     </div>
     <div className='flex gap-1 items-center'>
-    <img src={logo} alt="" className='h-9 w-9 mt-1' />
+    <img src={logo} alt="logo" className='h-9 w-9 mt-1' />
     {/* <a className="btn btn-ghost text-xl">Phudo</a> */}
     <p className='text-2xl font-bold'>DocTalk</p>
     </div>

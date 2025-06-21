@@ -5,6 +5,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, ResponsiveContainer, 
 import { toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const colors = ['#8884d8', '#82ca9d', '#ffc658', '#ff8042'];
 
 const Doclist = () => {

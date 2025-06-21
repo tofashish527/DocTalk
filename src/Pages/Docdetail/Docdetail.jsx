@@ -35,7 +35,7 @@ const Docdetail = () => {
                 <div className="p-5 flex justify-center items-center bg-gray-100 w-[400px]">
                     <img
                         src={image}
-                        alt=""
+                        alt="Doctor"
                         className="object-contain"
                     />
                 </div>

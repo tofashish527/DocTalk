@@ -57,7 +57,7 @@ const Footer = () => {
     return (
         <footer className="footer footer-horizontal footer-center bg-white text-base-content rounded p-10 mt-14">
    <div className='flex gap-1 items-center'>
-      <img src={logo} alt="" className='h-9 w-9 mt-1' />
+      <img src={logo} alt="logo" className='h-9 w-9 mt-1' />
       {/* <a className="btn btn-ghost text-xl">Phudo</a> */}
       <p className='text-2xl font-bold'>DocTalk</p>
       </div>

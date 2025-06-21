@@ -10,7 +10,7 @@ const Doctor = ({singledoc}) => {
   <figure className='w-10/12 bg-gray-100 mx-auto mt-5'>
     <img
       src={image}
-      alt="Shoes" className='h-40'/>
+      alt="Doctors" className='h-40'/>
   </figure>
   <div className="card-actions justify-start ml-8 mt-4">
       <div className="badge badge-outline bg-green-100 text-green-900">Available</div>

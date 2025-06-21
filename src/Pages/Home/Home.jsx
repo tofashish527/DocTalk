@@ -11,7 +11,6 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-            <link rel="icon" href="/logo/logo.png" />
             <title>DocTalk</title>
       </Helmet>
             <Banner></Banner>
